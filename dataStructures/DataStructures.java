@@ -150,12 +150,4 @@ public class DataStructures {
             arr[i] = g;
         }
     }
-
-    // insert linkedlist items into Array
-
-    public void loadIntoTruck() {
- 
-
-    }
-
 }

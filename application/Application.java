@@ -22,8 +22,8 @@ public class Application {
                 "10.get the last store in the list\n" +
                 "11.clear store list \n" +
                 "12. sort list based on orders\n" +
-                "14. randomly sort list\n" +
-                "15. exit program"
+                "13. randomly sort list\n" +
+                "14. exit program"
 
         );
     }
@@ -58,6 +58,8 @@ public class Application {
         return newStore;
     }
 
+
+     
     public static void main(String[] args) {
         DataStructures dataStruct = new DataStructures();
         Application application = new Application();
