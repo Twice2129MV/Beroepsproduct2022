@@ -30,6 +30,7 @@ public class DataStructures {
 
     public void sizeOfBottleQueue() {
         System.out.println("Size of queue: " + bottlesQueue.size());
+        System.out.println(bottlesQueue);
         if (bottlesQueue.size() == 0) {
             System.out.println("The queue is empty");
         }
@@ -77,6 +78,7 @@ public class DataStructures {
 
     public void sizeOfLinkedList() {
         System.out.println("Size of the list is: " + storeLinkedList.size());
+        System.out.println(storeLinkedList);
     }
 
     public void peekLinkedList() {
